@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2023 The LineageOS Project
+# Copyright (C) 2018-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -30,9 +30,6 @@ TARGET_KERNEL_CONFIG += vendor/nubia/nx606j.config
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4160749568
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 121061191680
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1006632960
-
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/class/tpnode/tpnode/synaptics/wake_gesture"
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
