@@ -46,7 +46,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.nubia.device.rc \
-    fstab.qcom
+    fstab.qcom \
+    fstab.qcom.ramdisk
 
 # Keylayout
 PRODUCT_COPY_FILES += \
